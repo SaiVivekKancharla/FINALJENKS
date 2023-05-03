@@ -85,7 +85,7 @@ resource "aws_lambda_function" "terraform_lambda_func" {
 
 resource "aws_s3_bucket" "listbucket" {
     
-bucket = "FINALBKT12"
+bucket = "finalbkt12"
 acl = "private"
 
 versioning {
